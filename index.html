@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darshan Bajgain</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./custom_css/style.css">
+
+
+
+</head>
+
+
+<body class=" bg  ">
+
+
+    <!-- Navbar goes here -->
+    <nav class="sticky top-0 bg-gray-900  mx-auto z-50 shadow-lg py-2 max-w-screen-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between md:justify-center">
+
+                <div class="flex justify-between items-center space-x-24">
+
+                    <div>
+                        <!-- Website Logo -->
+                        <a href="#" class="flex items-center py-4 px-2 mx-1">
+                            <span
+                                class="font-semibold uppercase tracking-widest hover:text-green-600 text-gray-100 text-xl">
+                                &lt;/DEV.DARSHAN&gt;</span>
+                        </a>
+                    </div>
+
+                    <!-- Primary Navbar items -->
+                    <div class="hidden md:flex items-center space-x-8">
+                        <a href="#home" class="flex flex-col items-center text-gray-100 hover:text-green-500">
+                            <i class="fas fa-home text-lg"></i>
+                            <span class="font-semibold">Home</span>
+                        </a>
+                        <a href="#about"
+                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">
+                            <i class="fa-solid fa-user text-lg"></i>
+                            <span class="font-semibold">About</span>
+                        </a>
+                        <a href="#projects"
+                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">
+                            <i class="fas fa-laptop-code text-lg"></i>
+                            <span class="font-semibold">Projects</span>
+                        </a>
+                        <a href="#contact"
+                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">
+                            <i class="fas fa-envelope text-lg"></i>
+                            <span class="font-semibold">Contact</span>
+                        </a>
+
+                        <a href=""
+                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">
+                            <i class="fas fa-envelope text-lg"></i>
+                            <span class="font-semibold">Blog</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-100 hover:text-green-500" x-show="!showMenu" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu">
+            <ul class="p-4">
+                <li><a href="#home"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fas fa-home text-lg mx-3"></i>
+                        <span>Home</span>
+                    </a></li>
+                <li><a href="#about"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fa-solid fa-user text-lg mx-3"></i>
+                        <span>About</span>
+                    </a></li>
+                <li><a href="#projects"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fas fa-laptop-code text-lg mx-3"></i>
+                        <span>Projects</span>
+                    </a></li>
+                <li><a href="#contact"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fas fa-envelope text-lg mx-3"></i>
+                        <span>Contact</span>
+                    </a></li>
+                <li><a href="#contact"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fas fa-envelope text-lg mx-3"></i>
+                        <span>Blog</span>
+                    </a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class=" py-16 lg:py-32 mx-auto">
+        <div
+            class=" lg:py-6 container max-w-screen-lg mx-auto flex flex-col md:flex-row items-center mb-4 px-2 md:px-16">
+            <div class=" md:w-1/2 flex flex-col items-center">
+                <img src="assets/profile-pic.png" alt="Profile Image"
+                    class="py-2 rounded-full w-52 h-52 object-cover" />
+                <div class="flex flex-col items-center mx-auto">
+                    <h1 class="text-xl font-bold text-gray-100 p-2">Hi, I am Darshan Bajgain</h1>
+                    <p class="text-base lg:text-lg px-4 mt-2 text-center text-gray-300">
+                        Frontend Web Developer, studying BSc.CSIT.
+                    </p>
+                </div>
+                <div class="my-6 flex items-center justify-center space-x-4">
+                    <a href="#projects"
+                        class="text-gray-100 font-semibold hover:text-green-500 hover:underline transition duration-300">
+                        See Projects <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="path-to-your-resume.pdf" download
+                        class="bg-gray-900 text-white py-2 px-4 hover:bg-green-500 transition duration-300">Download
+                        Resume</a>
+                </div>
+            </div>
+
+            <div class=" rounded-3xl md:w-1/2 p-4 text-center">
+
+                <div class="mb-6 py-4">
+                    <a href="#about"
+                        class="bg-gray-900 px-4 py-2 text-white font-semibold hover:bg-green-500 hover:underline transition duration-300">
+                        More Info <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <h3 class="text-xl font-semibold text-gray-100 mb-4">Connect with Me</h3>
+                <ul class="flex items-center justify-center space-x-4 p-2">
+                    <li>
+                        <a href="https://github.com/yourgithub" target="_blank"
+                            class="text-gray-300 hover:text-green-500">
+                            <i class="fab fa-github text-3xl"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank"
+                            class="text-gray-300 hover:text-green-500">
+                            <i class="fab fa-linkedin text-3xl"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="mt-4 py-2">
+                    <a href="#contact"
+                        class="bg-gray-900  text-white py-2 px-4 mx-auto hover:bg-green-500 transition duration-300">Contact</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="py-12 ">
+        <div class="container max-w-screen-lg mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-center">
+                <div class="md:w-1/2 p-4">
+                    <h3 class="text-xl text-center font-semibold text-gray-100 mb-4">About Me</h3>
+
+                    <p class="text-base text-gray-300  px-4 mt-2">
+                        I am currently studying BSc.CSIT, IOST from Tribhuvan University at Amrit Science Campus. I am
+                        currently at 7th semester.
+                    </p>
+
+                    <p class="text-base text-gray-300  px-4 mt-2">
+                        I work as a Frontend Web Developer and specialize in HTML, CSS, JavaScript, and React JS.
+                        Currently, I am expanding my skills to include backend technologies such as Java and have
+                        knowledge of databases like SQL.
+                    </p>
+                </div>
+                <div class=" flex flex-col justify-center items-center my-2 py-6">
+                    <h2 class="text-xl font-bold text-gray-100 p-4">Tools and Technology</h2>
+                    <div class="grid grid-cols-3 md:grid-cols-4 md:gap-8 gap-2 mt-4">
+                        <div class="text-center">
+                            <img src="assets/icons/html.svg" alt="HTML5 Icon" class="w-16 h-16 mx-auto mb-4" />
+                            <p class="text-gray-200">HTML</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/icons/css3.svg" alt="CSS Icon" class="w-16 h-16 mx-auto mb-4" />
+                            <p class="text-gray-200">CSS</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/icons/js.svg" alt="JavaScript Icons" class="w-16 h-16 mx-auto mb-4" />
+                            <p class="text-gray-200">JavaScript</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/icons/react.svg" alt="React" class="w-16 h-16 mx-auto mb-4" />
+                            <p class="text-gray-200">React</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/icons/git.svg" alt="git Icon" class="w-16 h-16 mx-auto mb-4" />
+                            <p class="text-gray-200">Git</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/icons/tailwind.svg" alt="Tailwind" class="w-16 h-16 mx-auto mb-4" />
+                            <p class="text-gray-200">Tailwind CSS</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="assets/icons/mysql.svg" alt="SQL Icon" class="w-16 h-16 mx-auto mb-4" />
+                            <p class="text-gray-200">MySQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Project section-->
+    <section id="projects" class="py-16  ">
+        <div class="container max-w-screen-lg mx-auto ">
+            <h2 class="text-2xl text-center text-gray-100 font-bold mb-8">Featured Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+
+
+                <div
+                    class="bg-gray-100 mx-4 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105">
+                    <img src="https://img.freepik.com/free-photo/blog-notes-concept-with-wooden-blocks-pen-black-notebook-top-view_176474-10347.jpg?w=996&t=st=1699198565~exp=1699199165~hmac=4503783318d4ef003cb6c16f4a76e16084bfa76f6c23e36373c07a4f605024c9" alt="Project 1"
+                        class="w-full h-44 object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project 1</h3>
+                        <p class="text-gray-600 text-sm mb-4">Description of Project 1.</p>
+                        <div class="flex justify-between items-center mb-2">
+                            <a href="github_project1_link" target="_blank"
+                                class=" text-gray-800 flex  items-center gap-2 hover:underline hover:text-green-500">
+                                <img src="assets/icons/github.svg" alt="View Source Code on github"
+                                    class="w-6 h-8 mx-auto mb-2" />
+                                Source
+                            </a>
+                            <a href="live_preview_project1_link" target="_blank"
+                                class="bg-gray-900 p-2 text-white hover:underline hover:bg-green-500">
+                                Live View
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gray-100 mx-4 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105">
+                    <img src="https://img.freepik.com/free-photo/blog-notes-concept-with-wooden-blocks-pen-black-notebook-top-view_176474-10347.jpg?w=996&t=st=1699198565~exp=1699199165~hmac=4503783318d4ef003cb6c16f4a76e16084bfa76f6c23e36373c07a4f605024c9" alt="Project 1"
+                        class="w-full h-44 object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project 1</h3>
+                        <p class="text-gray-600 text-sm mb-4">Description of Project 1.</p>
+                        <div class="flex justify-between items-center mb-2">
+                            <a href="github_project1_link" target="_blank"
+                                class=" text-gray-800 flex  items-center gap-2 hover:underline hover:text-green-500">
+                                <img src="assets/icons/github.svg" alt="View Source Code on github"
+                                    class="w-6 h-8 mx-auto mb-2" />
+                                Source
+                            </a>
+                            <a href="live_preview_project1_link" target="_blank"
+                                class="bg-gray-900 p-2 text-white hover:underline hover:bg-green-500">
+                                Live View
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-gray-100 mx-4 rounded-lg overflow-hidden shadow-md transition-transform transform hover:scale-105">
+                    <img src="https://img.freepik.com/free-photo/blog-notes-concept-with-wooden-blocks-pen-black-notebook-top-view_176474-10347.jpg?w=996&t=st=1699198565~exp=1699199165~hmac=4503783318d4ef003cb6c16f4a76e16084bfa76f6c23e36373c07a4f605024c9" alt="Project 1"
+                        class="w-full h-44 object-cover" />
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Project 1</h3>
+                        <p class="text-gray-600 text-sm mb-4">Description of Project 1.</p>
+                        <div class="flex justify-between items-center mb-2">
+                            <a href="github_project1_link" target="_blank"
+                                class=" text-gray-800 flex  items-center gap-2 hover:underline hover:text-green-500">
+                                <img src="assets/icons/github.svg" alt="View Source Code on github"
+                                    class="w-6 h-8 mx-auto mb-2" />
+                                Source
+                            </a>
+                            <a href="live_preview_project1_link" target="_blank"
+                                class="bg-gray-900 p-2 text-white hover:underline hover:bg-green-500">
+                                Live View
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto max-w-screen-lg">
+            <h2 class="text-2xl text-center text-gray-100 font-bold mb-8">Contact Me</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center">
+                <!-- Contact Information -->
+                <div class="md:w-1/2 p-4 text-center">
+                    <p class="text-gray-300 text-lg  ">You can reach out to me via email or</p>
+                    <ul class=" my-2">
+                        <li class="text-center text-base mx-auto">
+                            <span
+                                class="text-gray-300 flex items-center justify-center space-x-1  hover:text-green-500">
+                                <i class="fas fa-envelope px-1 text-3xl "></i>
+                                <p>darshanbajgain90@gmail.com</p>
+                            </span>
+                        </li>
+
+                    </ul>
+                    <p class="text-gray-300 py-2 text-lg mt-4">Connect with me via social sites:</p>
+
+                    <ul class="flex items-center justify-center space-x-4 p-2">
+
+                        <li>
+
+                            <a href="https://github.com/yourgithub" target="_blank"
+                                class="text-gray-300 hover:text-green-500">
+                                <i class="fab fa-github text-3xl"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                            <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank"
+                                class="text-gray-300 hover:text-green-500">
+                                <i class="fab fa-linkedin text-3xl"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                            <a href="https://twitter.com/yourtwitter" target="_blank"
+                                class="text-gray-300 hover:text-green-500">
+                                <i class="fab fa-twitter text-3xl"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Contact Form -->
+                <div class="md:w-1/2 p-4">
+                    <h3 class="text-xl font-semibold text-gray-300 mb-4">Send Me a Message</h3>
+                    <form action="https://formspree.io/f/mgejqejb" method="POST">
+                        <div class="mb-4">
+                            <label for="user-email" class="block text-gray-300 mb-2">Your Email:</label>
+                            <input type="email" id="user-email" name="email"
+                                class="w-full p-2 border rounded focus:outline-none focus:ring focus:border-green-500"
+                                placeholder="Your email">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-300 mb-2">Your Message:</label>
+                            <textarea name="message" id="message" rows="4"
+                                class="w-full p-2 border rounded focus:outline-none focus:ring focus:border-green-500"
+                                placeholder="Type your message here"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="bg-gray-900 text-white py-2 px-4 rounded hover:bg-green-500 hover:text-gray-100">
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class=" bg-gray-900 text-white py-12 shadow-inner  mx-auto mt-16">
+        <div class="container mx-auto px-4 flex flex-col items-center">
+            <h3 class="text-lg font-semibold text-gray-100 mb-2">Quick Links:</h3>
+            <div class="w-full flex items-center justify-center space-x-4">
+                <a href="#home" class="hover:text-green-500">Home</a>
+                <a href="https://your-blog-link" class="hover:text-green-500">Blog</a>
+            </div>
+            <p class="mt-4"> Darshan Bajgain &diamondsuit; 2023</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/8022519056.js" crossorigin="anonymous"></script>
+    <script src="script/navbar.js"></script>
+    <script src="script/smooth-scroll.js"></script>
+
+</body>
+
+</html>

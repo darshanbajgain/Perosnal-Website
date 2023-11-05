@@ -1,0 +1,33 @@
+
+/*not used here, experimented only
+.project-bg {
+    padding: 96px 0;
+    clip-path: polygon(0 8%, 100% 0%, 100% 93%, 0% 100%);
+}
+
+
+.hero1-bg {
+    background-image: url('../assets/bg1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-bg{
+    background-image: url('../assets/info.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-bg {
+    background-image: url('../assets/footer-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ */
+
+
+.bg{
+    background-color: #2D3748;
+}
