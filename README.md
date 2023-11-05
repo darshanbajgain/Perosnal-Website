@@ -9,7 +9,6 @@ and provide contact information to connect with you. The website is built using 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
-- [Customization](#customization)
 
 ## Features
 
