@@ -34,4 +34,4 @@ and provide contact information to connect with you. The website is built using 
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone https://github.com/darshanbajgain/Perosnal-Website
+   https://github.com/darshanbajgain/Perosnal-Website.git
