@@ -1,7 +1,7 @@
 # Perosnal-Website
 # Darshan Bajgain Portfolio Website
 
-This is a simple personal portfolio website created by [Darshan Bajgain]. It serves as a platform to showcase your work, share your resume, 
+This is a simple personal portfolio website created by Darshan Bajgain. It serves as a platform to showcase your work, share your resume, 
 and provide contact information to connect with you. The website is built using HTML, CSS (with Tailwind CSS), and JavaScript.
 
 ## Table of Contents
@@ -20,6 +20,7 @@ and provide contact information to connect with you. The website is built using 
 - A sticky navigation bar with smooth scrolling.
 - Mobile-friendly navigation menu.
 - Icons and images for visual appeal.
+- JS Particles background with different shapes.
 
 ## Technologies Used
 

@@ -26,8 +26,25 @@
 }
 
  */
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
 
 
 .bg{
+  
     background-color: #2D3748;
 }
+
+
+#particles-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place it behind your other content */
+  }
