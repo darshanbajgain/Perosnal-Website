@@ -1,10 +1,10 @@
-# Perosnal-Website
+# Personal-Website
 # Darshan Bajgain Portfolio Website
 
 This is a simple personal portfolio website created by Darshan Bajgain. It is a platform to showcase your work, share your resume, 
-and give you contact information so you can connect with them. The website uses HTML, CSS (with Tailwind CSS), and JavaScript. You can use this a template.
+and give you contact information so you can connect with them. The website uses HTML, CSS (with Tailwind CSS), and JavaScript. You can use this as a template.
 
-## Live Preivew: [click here]()
+## Live Preview: [click here]()
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ and give you contact information so you can connect with them. The website uses 
 - A sticky navigation bar with smooth scrolling.
 - Mobile-friendly navigation menu.
 - Icons and images for visual appeal.
-- JS Particles background with different shapes.
+- JS particles background with different shapes.
 
 ## Technologies Used
 
@@ -32,10 +32,10 @@ and give you contact information so you can connect with them. The website uses 
 - [Font Awesome](https://fontawesome.com/) for icons
 
 - [Formspree](https://formspree.io/) for the contact form
-   use your formspree url in the code below:
+   use your Formspree URL in the code below:
    ```bash
        
-         <form action="{use your formsphre URL here}" method="POST">
+         <form action="{use your formspree URL here}" method="POST">
 
    ```
 
