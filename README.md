@@ -35,7 +35,7 @@ and give you contact information so you can connect with them. The website uses 
    use your formspree url in the code below:
    ```bash
        
-         <form action="{use your formsphre URL here}      method="POST">
+         <form action="{use your formsphre URL here}" method="POST">
 
    ```
 
